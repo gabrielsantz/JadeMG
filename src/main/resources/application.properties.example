@@ -1,0 +1,14 @@
+# Application name
+spring.application.name=JadeMG
+
+# Database Configuration
+spring.datasource.url=jdbc:postgresql://localhost:5432/your_database
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# JPA Configuration
+spring.jpa.hibernate.ddl-auto=update
+
+# Logging Configuration
+logging.level.org.springframework.security=DEBUG 
